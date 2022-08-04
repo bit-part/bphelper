@@ -1,4 +1,4 @@
-# bphelper plugin for Craft CMS 3.x
+# bphelper plugin for Craft CMS 4.x
 
 This is a helper plugin.
 
@@ -6,7 +6,7 @@ This is a helper plugin.
 
 ## Requirements
 
-This plugin requires Craft CMS 3.0.0-beta.23 or later.
+This plugin requires Craft CMS 4.0.0 or later.
 
 ## Installation
 
