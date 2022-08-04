@@ -1,0 +1,49 @@
+{
+    "name": "bitpart/bphelper",
+    "description": "This is a helper plugin.",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "bphelper"
+    ],
+    "support": {
+        "docs": "https://github.com/bit-part/bphelper/blob/master/README.md",
+        "issues": "https://github.com/bit-part/bphelper/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "bit part LLC",
+            "homepage": "https://bit-part.net"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^4.0.0"
+    },
+    "require-dev": {
+      "craftcms/cms": "dev-main",
+      "codeception/codeception": "dev-main",
+      "vlucas/phpdotenv": "^5.4.1"
+    },
+    "autoload": {
+        "psr-4": {
+          "bitpart\\bphelper\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "bphelper",
+        "handle": "bphelper",
+        "developer": "bit part LLC",
+        "developerUrl": "https://bit-part.net",
+        "documentationUrl": "https://github.com/bit-part/bphelper/blob/master/README.md",
+        "changelogUrl": "https://raw.githubusercontent.com/bit-part/bphelper/master/CHANGELOG.md",
+        "components": {
+            "bphelperService": "bitpart\\bphelper\\services\\BphelperService"
+        },
+        "class": "bitpart\\bphelper\\Bphelper"
+    }
+}
